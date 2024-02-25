@@ -1,0 +1,97 @@
+
+#result {
+  width: 560px; 
+  border-radius: 12px;
+  background: #181f32;
+  color: white;
+  font-family: Segoe UI;
+  font-size: 40px;
+  font-weight: 900;
+  line-height: 74px;
+  letter-spacing: 0em;
+  text-align: right;
+  border: #181f32;
+} 
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #3B4664;
+  
+
+}
+
+.calc {
+  border: 1px solid #3B4664;
+  border-radius: 5px;
+  padding: 10px;
+  background: #252D44;
+  color: white;
+  font-size: 1.5em;
+  
+}
+
+.displaybox {
+  margin-bottom: 10px;
+  margin: 10px;
+ 
+}
+
+.textbox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 5px;
+  padding: 10px;
+  background: #252D44;
+  margin: 10px;
+}
+
+.textbox input[type="button"] {
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.5em;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  font-weight: bold;
+  
+}
+
+.textbox input[type="button"]:hover {
+  background-color: #e0e0e0;
+}
+#reset_btn{
+  width: 45%;
+  background: #647299;
+  border: 1px solid #647299;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  border-radius: 12px;
+  font-size: 1.5em;
+  font-weight: bold;
+}
+#result_btn{
+  background: #D13F30;
+  width: 45%;
+  border: 1px solid #D13F30;
+  color: white;
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.5em;
+  border-radius: 12px;
+  font-weight: bold;
+}
+#del_btn{
+  background: #647299;
+  border: 1px solid #647299;
+  color: white;
+}
+.btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
